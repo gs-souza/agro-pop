@@ -1,61 +1,53 @@
-/* Reset básico e estilos gerais */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #02fc38;
-    padding: 20px;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #333;
-    color: #14f000;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
 }
 
 header h1 {
-    font-size: 24px;
+    margin: 0;
 }
 
 nav ul {
     list-style-type: none;
+    padding: 0;
 }
 
 nav ul li {
-    display: inline-block;
-    margin-right: 10px;
+    display: inline;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: #05ee11;
+    color: white;
     text-decoration: none;
-    padding: 5px 10px;
 }
 
 nav ul li a:hover {
-    background-color: #555;
+    text-decoration: underline;
 }
 
 section {
-    margin: 20px 0;
     padding: 20px;
-    background-color: #05f005;
+    margin: 10px;
+    background-color: white;
     border-radius: 5px;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #b82727;
-    color: #2af302;
+    background-color: #4CAF50;
+    color: white;
     position: fixed;
     bottom: 0;
     width: 100%;
